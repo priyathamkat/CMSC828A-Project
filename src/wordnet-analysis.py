@@ -11,7 +11,7 @@ from nltk.corpus import wordnet
 from torch.utils.data import DataLoader
 from torchvision.datasets import ImageNet
 from tqdm import tqdm, trange
-from transformers import AutoImageProcessor, AutoModel, CLIPVisionModel
+from transformers import AutoImageProcessor, AutoModel, CLIPVisionModel, ViTModel
 
 FLAGS = flags.FLAGS
 
@@ -21,7 +21,7 @@ flags.DEFINE_integer(
 )
 flags.DEFINE_integer("num_workers", 1, "Number of workers for the dataloader.")
 flags.DEFINE_enum(
-    "model", "resnet50", ["resnet50", "clip"], "Model to use for computing distances."
+    "model", "resnet50", ["resnet50", "clip", "dino"], "Model to use for computing distances."
 )
 flags.DEFINE_string("cache_dir", "../cache", "Cache directory.")
 
@@ -81,6 +81,19 @@ def main(_):
         base_model = accelerator.prepare(base_model)
         def model(*args, **kwargs):
             return base_model(*args, **kwargs).pooler_output
+
+        base_preprocessor = AutoImageProcessor.from_pretrained(model_name)
+        def preprocess(images):
+            inputs = base_preprocessor(images=images, return_tensors="pt")
+            inputs["pixel_values"] = inputs["pixel_values"][0]
+            return inputs
+    elif FLAGS.model == "dino":
+        model_name = "facebook/dino-vitb16"
+
+        base_model = ViTModel.from_pretrained(model_name)
+        base_model = accelerator.prepare(base_model)
+        def model(*args, **kwargs):
+            return base_model(*args, **kwargs).last_hidden_state.mean(dim=1)
 
         base_preprocessor = AutoImageProcessor.from_pretrained(model_name)
         def preprocess(images):
