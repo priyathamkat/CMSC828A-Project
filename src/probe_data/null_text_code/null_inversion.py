@@ -188,10 +188,10 @@ class NullInversion:
         bar.close()
         return uncond_embeddings_list
     
-    def invert(self, curr_image, prompt: str, offsets=(0,0,0,0), num_inner_steps=10, early_stop_epsilon=1e-5, verbose=False):
+    def invert(self, image_path, prompt: str, offsets=(0,0,0,0), num_inner_steps=10, early_stop_epsilon=1e-5, verbose=False):
         self.init_prompt(prompt)
         ptp_utils.register_attention_control(self.model, None)
-        # curr_image = load_512(image_path, *offsets)
+        curr_image = load_512(image_path, *offsets)
         # curr_image = interpolate_img_512(image_path, *offsets)
 
         if verbose:
