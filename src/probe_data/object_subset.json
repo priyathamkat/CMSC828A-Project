@@ -1,0 +1,312 @@
+
+{
+    "bench":
+    {
+        "100166": {
+            "object_addition": {"from": [""], "to": ["bag", "books", "shoes"]},
+            "object_replacement": {"from": ["bench"], "to": ["couch"]},
+            "color": {"from": [""], "to": ["blue", "green", "black", "yellow"]},
+            "texture": {"from": [""], "to": ["wooden", "steel", "leather"]}
+        },
+
+        "122105": {
+            "object_addition": {"from": [""], "to": ["bag", "books", "shoes"]},
+            "object_replacement": {"from": ["bench"], "to": ["couch"]},
+            "color": {"from": [""], "to": ["blue", "green", "black", "yellow"]},
+            "texture": {"from": [""], "to": ["wooden", "steel", "leather"]}
+        },
+
+        "198176": {
+            "object_addition": {"from": [""], "to": ["bag", "books", "shoes"]},
+            "object_replacement": {"from": ["bench"], "to": ["couch"]},
+            "color": {"from": [""], "to": ["blue", "green", "black", "yellow"]},
+            "texture": {"from": [""], "to": ["wooden", "steel", "leather"]}            
+        },
+
+        "107188": {
+            "object_addition": {"from": [""], "to": ["bag", "books", "shoes"]},
+            "object_replacement": {"from": ["bench"], "to": ["couch"]},
+            "color": {"from": [""], "to": ["blue", "green", "black", "yellow"]},
+            "texture": {"from": [""], "to": ["wooden", "steel", "leather"]}
+        }, 
+
+        "151300": {
+            "object_addition": {"from": [""], "to": ["bag", "books", "shoes"]},
+            "object_replacement": {"from": ["bench"], "to": ["couch"]},
+            "color": {"from": [""], "to": ["blue", "green", "black", "yellow"]},
+            "texture": {"from": [""], "to": ["wooden", "steel", "leather"]}       
+        },
+
+        "240698": {
+            "object_addition": {"from": [""], "to": ["bag", "books", "shoes"]},
+            "object_replacement": {"from": ["bench"], "to": ["couch"]},
+            "color": {"from": [""], "to": ["blue", "green", "black", "yellow"]},
+            "texture": {"from": [""], "to": ["wooden", "steel", "leather"]}                   
+        }
+
+    },
+
+    "couch":{
+        "368321":{
+            "shape": {"from": [""], "to": ["orange", "avocado"]},
+            "texture": {"from": [""], "to": ["metallic", "cheese", "wooden"]}
+        },
+        "147856":{
+            "shape": {"from": [""], "to": ["orange", "avocado"]},
+            "texture": {"from": [""], "to": ["metallic", "cheese", "wooden"]}
+        },
+        "85856":{
+            "shape": {"from": [""], "to": ["orange", "avocado"]},
+            "texture": {"from": [""], "to": ["metallic", "cheese", "wooden"]}
+        },
+        "527599":{
+            "shape": {"from": [""], "to": ["orange", "avocado"]},
+            "texture": {"from": [""], "to": ["metallic", "cheese", "wooden"]}
+        },
+        "416047":{
+            "shape": {"from": [""], "to": ["orange", "avocado"]},
+            "texture": {"from": [""], "to": ["metallic", "cheese", "wooden"]}
+        }        
+    },
+
+    "chair":{
+        "196611":{
+            "object_replacement": {"from": ["chair"], "to": ["bench"]},
+            "texture": {"from": [""], "to": ["metallic", "wooden", "leather"]}
+        },
+
+        "381384":{
+            "object_replacement": {"from": ["chair"], "to": ["bench"]},
+            "texture": {"from": [""], "to": ["metallic", "wooden", "leather"]}
+        },
+
+        "437231":{
+            "object_replacement": {"from": ["chair"], "to": ["bench"]},
+            "texture": {"from": [""], "to": ["metallic", "wooden", "leather"]}        
+        },
+
+        "182995":{
+            "object_replacement": {"from": ["chair"], "to": ["bench"]},
+            "texture": {"from": [""], "to": ["metallic", "wooden", "leather"]}        
+        },
+
+        "15567":{
+            "object_replacement": {"from": ["chair"], "to": ["bench"]},
+            "texture": {"from": [""], "to": ["metallic", "wooden", "leather"]}        
+        }              
+
+    },
+
+    "dog":{
+        "11635":{
+            "object_replacement":{"from": ["dog"], "to": ["cat"]},
+            "alter_parts": {"from": [""], "to": ["add sweater", "add tie"]},
+            "color": {"from": [""], "to": ["red", "green", "blue"]},
+            "texture": {"from": [""], "to": ["spotted", "furry"]},
+            "pose": {"from": [""], "to": ["lay", "stand", "sit"]}                       
+        },
+        "113168":{
+            "object_replacement":{"from": ["dog"], "to": ["cat"]},
+            "alter_parts": {"from": [""], "to": ["add sweater", "add tie"]},
+            "color": {"from": [""], "to": ["red", "green", "blue"]},
+            "texture": {"from": [""], "to": ["spotted", "furry"]},
+            "pose": {"from": [""], "to": ["lay", "stand", "sit"]}                        
+        },
+
+        "119320":{
+            "object_replacement":{"from": ["dog"], "to": ["cat"]},
+            "alter_parts": {"from": [""], "to": ["add sweater", "add tie"]},
+            "color": {"from": [""], "to": ["red", "green", "blue"]},
+            "texture": {"from": [""], "to": ["spotted", "furry"]},
+            "pose": {"from": [""], "to": ["lay", "stand", "sit"]}                        
+        },
+
+        "365519":{
+            "object_replacement":{"from": ["dog"], "to": ["cat"]},
+            "alter_parts": {"from": [""], "to": ["add sweater", "add tie"]},
+            "color": {"from": [""], "to": ["red", "green", "blue"]},
+            "texture": {"from": [""], "to": ["spotted", "furry"]},
+            "pose": {"from": [""], "to": ["lay", "stand", "sit"]}
+        },
+
+        "322945":{
+            "object_replacement":{"from": ["dog"], "to": ["cat"]},
+            "alter_parts": {"from": [""], "to": ["add sweater", "add tie"]},
+            "color": {"from": [""], "to": ["red", "green", "blue"]},
+            "texture": {"from": [""], "to": ["spotted", "furry"]},
+            "pose": {"from": [""], "to": ["lay", "stand", "sit"]}
+        },
+
+        "1025":{
+            "object_replacement":{"from": ["dog"], "to": ["cat"]},
+            "alter_parts": {"from": [""], "to": ["add sweater", "add tie"]},
+            "color": {"from": [""], "to": ["red", "green", "blue"]},
+            "texture": {"from": [""], "to": ["spotted", "furry"]},
+            "pose": {"from": [""], "to": ["lay", "stand", "sit"]}                        
+        }
+    },
+
+    "cat":{
+        "180287":{
+            "object_replacement":{"from": ["cat"], "to": ["dog"]},
+            "alter_parts": {"from": [""], "to": ["add sweater", "add tie"]},
+            "color": {"from": [""], "to": ["red", "green", "blue"]},
+            "texture": {"from": [""], "to": ["spotted", "furry"]},
+            "pose": {"from": [""], "to": ["lay", "stand", "sit"]}                        
+        },
+
+        "155707":{
+            "object_replacement":{"from": ["cat"], "to": ["dog"]},
+            "alter_parts": {"from": [""], "to": ["add sweater", "add tie"]},
+            "color": {"from": [""], "to": ["red", "green", "blue"]},
+            "texture": {"from": [""], "to": ["spotted", "furry"]},
+            "pose": {"from": [""], "to": ["lay", "stand", "sit"]}                        
+        },
+
+        "409652":{
+            "object_replacement":{"from": ["cat"], "to": ["dog"]},
+            "alter_parts": {"from": [""], "to": ["add sweater", "add tie"]},
+            "color": {"from": [""], "to": ["red", "green", "blue"]},
+            "texture": {"from": [""], "to": ["spotted", "furry"]},
+            "pose": {"from": [""], "to": ["lay", "stand", "sit"]}                        
+        },
+
+        "442457":{
+            "object_replacement":{"from": ["cat"], "to": ["dog"]},
+            "alter_parts": {"from": [""], "to": ["add sweater", "add tie"]},
+            "color": {"from": [""], "to": ["red", "green", "blue"]},
+            "texture": {"from": [""], "to": ["spotted", "furry"]},
+            "pose": {"from": [""], "to": ["lay", "stand", "sit"]}                        
+        },
+
+        "516194":{
+            "object_replacement":{"from": ["cat"], "to": ["dog"]},
+            "alter_parts": {"from": [""], "to": ["add sweater", "add tie"]},
+            "color": {"from": [""], "to": ["red", "green", "blue"]},
+            "texture": {"from": [""], "to": ["spotted", "furry"]},
+            "pose": {"from": [""], "to": ["lay", "stand", "sit"]}                        
+        }                        
+    },
+    
+    "backpack":{
+        "94926":{
+            "shape": {"from": [""], "to": ["duffel", "messenger", "hydration"]},
+            "color":{"from": [""], "to": ["red", "blue", "orange"]}
+        },
+
+        "396542":{
+            "shape": {"from": [""], "to": ["duffel", "messenger", "hydration"]},
+            "color":{"from": [""], "to": ["red", "blue", "orange"]}
+        },
+
+        "408248":{
+            "shape": {"from": [""], "to": ["duffel", "messenger", "hydration"]},
+            "color":{"from": [""], "to": ["red", "blue", "orange"]}
+        },
+
+        "175227":{
+            "shape": {"from": [""], "to": ["duffel", "messenger", "hydration"]},
+            "color":{"from": [""], "to": ["red", "blue", "orange"]}
+        },
+
+        "9679": {
+            "shape": {"from": [""], "to": ["duffel", "messenger", "hydration"]},
+            "color":{"from": [""], "to": ["red", "blue", "orange"]}
+        },
+
+        "315338":{
+            "shape": {"from": [""], "to": ["duffel", "messenger", "hydration"]},
+            "color":{"from": [""], "to": ["red", "blue", "orange"]}
+        },
+
+        "163866":{
+            "shape": {"from": [""], "to": ["duffel", "messenger", "hydration"]},
+            "color":{"from": [""], "to": ["red", "blue", "orange"]}
+
+        }       
+    },
+    
+    "apple":{
+        "434201":{
+            "color": {"from": [""], "to": ["green", "yellow", "golden"]},
+            "object_replacement":{"from": ["apple"], "to": ["orange"]},
+            "texture":{"from": [""], "to": ["leopard spots", "zebra stripes"]}
+        },
+
+        "352377":{
+            "color": {"from": [""], "to": ["green", "yellow", "golden"]},
+            "object_replacement":{"from": ["apple"], "to": ["orange"]},
+            "texture":{"from": [""], "to": ["leopard spots", "zebra stripes"]}
+        },
+
+        "548957":{
+            "color": {"from": [""], "to": ["green", "yellow", "golden"]},
+            "object_replacement":{"from": ["apple"], "to": ["orange"]},
+            "texture":{"from": [""], "to": ["leopard spots", "zebra stripes"]}        }        
+    },
+
+    "donut":{
+        "475236":{
+            "color": {"from": [""], "to": ["red", "brown",  "yellow"]},
+            "alter_parts": {"from": [""], "to": ["add jelly beans topping", "add chocolate sprinkle"]}
+        },
+        "557137":{
+            "color": {"from": [""], "to": ["red", "brown",  "yellow"]},
+            "alter_parts": {"from": [""], "to": ["add jelly beans topping", "add chocolate sprinkle"]}
+        },
+        "82083":{
+            "color": {"from": [""], "to": ["red", "brown",  "yellow"]},
+            "alter_parts": {"from": [""], "to": ["add jelly beans topping", "add chocolate sprinkle"]}
+        }        
+    },
+
+    "car":{
+        "566395":{
+            "color": {"from": [""], "to": ["red", "orange",  "yellow"]},
+            "texture": {"from": [""], "to": ["plastic", "shiny silver"]},
+            "object_replacement":{"from": ["car"], "to": ["motorcycle"]}
+        },
+        "163897":{
+            "color": {"from": [""], "to": ["red", "orange",  "yellow"]},
+            "texture": {"from": [""], "to": ["plastic", "shiny silver"]},
+            "object_replacement":{"from": ["car"], "to": ["motorcycle"]}
+        },
+        "349101":{
+            "color": {"from": [""], "to": ["red", "orange",  "yellow"]},
+            "texture": {"from": [""], "to": ["plastic", "shiny silver"]},
+            "object_replacement":{"from": ["car"], "to": ["motorcycle"]}
+        },
+
+        "414624":{
+            "color": {"from": [""], "to": ["red", "orange",  "yellow"]},
+            "texture": {"from": [""], "to": ["plastic", "shiny silver"]},
+            "object_replacement":{"from": ["car"], "to": ["motorcycle"]}
+        }  
+    }, 
+
+    "motorcycle":{
+        "566395":{
+            "color": {"from": [""], "to": ["red", "orange",  "yellow"]},
+            "texture": {"from": [""], "to": ["plastic", "shiny silver"]},
+            "object_replacement":{"from": ["motorcycle"], "to": ["car"]}                        
+        },
+        "163897":{
+            "color": {"from": [""], "to": ["red", "orange",  "yellow"]},
+            "texture": {"from": [""], "to": ["plastic", "shiny silver"]},
+            "object_replacement":{"from": ["motorcycle"], "to": ["car"]}            
+        },
+        "349101":{
+            "color": {"from": [""], "to": ["red", "orange",  "yellow"]},
+            "texture": {"from": [""], "to": ["plastic", "shiny silver"]},
+            "object_replacement":{"from": ["motorcycle"], "to": ["car"]}            
+        },
+
+        "414624":{
+            "color": {"from": [""], "to": ["red", "orange",  "yellow"]},
+            "texture": {"from": [""], "to": ["plastic", "shiny silver"]},
+            "object_replacement":{"from": ["motorcycle"], "to": ["car"]}            
+        }  
+
+    }   
+    
+}
