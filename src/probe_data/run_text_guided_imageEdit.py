@@ -468,8 +468,10 @@ def null_text_edit(img_dict, edit_data, model_id):
         GUIDANCE_SCALE = 7.5
         device = torch.device('cuda:0') if torch.cuda.is_available() else torch.device('cpu')
         ## Method: Prompt To Prompt Based Image Generation via Inversion
-        null_inversion = NullInversion(ldm_stable, NUM_DDIM_STEPS, GUIDANCE_SCALE, device)    
-        (image_gt, image_enc), x_t, uncond_embeddings = null_inversion.invert(curr_image, source_prompt, offsets=(0,0,0,0), verbose=True)
+        null_inversion = NullInversion(ldm_stable, NUM_DDIM_STEPS, GUIDANCE_SCALE, device) 
+
+        image_path = save_path+'/'+class_curr+'/'+curr_attribute+'/'+curr_attribute_local + '/'+str(curr_image_id)+'/'+ str(curr_image_id) + '_unedited.png'
+        (image_gt, image_enc), x_t, uncond_embeddings = null_inversion.invert(image_path, source_prompt, offsets=(0,0,0,0), verbose=True)
         assert uncond_embeddings is not None, "WARNING: uncond_embeddings are NONE even after null-text optimization."
 
         prompts = [source_prompt]
